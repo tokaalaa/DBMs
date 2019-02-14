@@ -1,0 +1,212 @@
+INFO    2018-12-12 00:28:15,849 [main] Driver  - you start new connection with pathsample\39697
+INFO    2018-12-12 00:28:15,859 [main] Driver  - you start new statement
+INFO    2018-12-12 00:28:15,859 [main] Driver  - you enter query: DROP DATABASE TestDB and it isn't created
+INFO    2018-12-12 00:28:15,859 [main] Driver  - you enter query: CREATE DATABASE TestDB and it was already created
+INFO    2018-12-12 00:28:15,859 [main] Driver  - you close your statement
+INFO    2018-12-12 00:28:15,859 [main] Driver  - you start new statement
+INFO    2018-12-12 00:28:15,980 [main] Driver  - you enter query: CREATE TABLE table_name1(column_name1 varchar , column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2018-12-12 00:28:15,980 [main] Driver  - you close your statement
+INFO    2018-12-12 00:28:15,980 [main] Driver  - you start new statement
+INFO    2018-12-12 00:28:15,990 [main] Driver  - you enter query: CREATE TABLE table_name2(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2018-12-12 00:28:15,990 [main] Driver  - you enter query: INSERT INTO * table_name2(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2018-12-12 00:28:15,990 [main] Driver  - you start new statement
+INFO    2018-12-12 00:28:16,000 [main] Driver  - you enter query: CREATE TABLE table_name3(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2018-12-12 00:28:16,000 [main] Driver  - you enter query: INS ERT INTO table_name3(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2018-12-12 00:28:16,000 [main] Driver  - you close your statement
+INFO    2018-12-12 00:28:16,000 [main] Driver  - you start new statement
+INFO    2018-12-12 00:28:16,010 [main] Driver  - you enter query: CREATE TABLE table_name4(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2018-12-12 00:28:16,010 [main] Driver  - you enter query: INSERT INTO table_name4(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2018-12-12 00:28:16,010 [main] Driver  - you enter query: UPDATE table_name4 SET column_name1=='1111111111', COLUMN_NAME2=2222222, column_name3='333333333'
+INFO    2018-12-12 00:28:16,020 [main] Driver  - you close your statement
+INFO    2018-12-12 00:28:16,020 [main] Driver  - you start new statement
+INFO    2018-12-12 00:28:16,020 [main] Driver  - you enter query: CREATE TABLE table_name6(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2018-12-12 00:28:16,020 [main] Driver  - you enter query: INSERT INTO table_name6(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2018-12-12 00:28:16,040 [main] Driver  - you enter query: UPDATE table_name6 SET column_name1='1111111111', COLUMN_NAME2=2222222, column_name3='333333333
+INFO    2018-12-12 00:28:16,040 [main] Driver  - you close your statement
+INFO    2018-12-12 00:28:16,040 [main] Driver  - you start new statement
+INFO    2018-12-12 00:28:16,050 [main] Driver  - you enter query: CREATE TABLE table_name7(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2018-12-12 00:28:16,050 [main] Driver  - you enter query: INSERT INTO table_name7(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4
+INFO    2018-12-12 00:28:16,050 [main] Driver  - you close your statement
+INFO    2018-12-12 00:28:16,050 [main] Driver  - you start new statement
+INFO    2018-12-12 00:28:16,050 [main] Driver  - you enter query: CREATE TABLE table_name9(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2018-12-12 00:28:16,050 [main] Driver  - you enter query: INSERT INTO ta.ble_name9(column_NAME1, COLUMN_name3, column_name.2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:49,318 [main] Driver  - you start new connection with pathsample\14947
+INFO    2019-02-14 09:01:49,328 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:49,328 [main] Driver  - you enter query: DROP DATABASE TestDB_Select and it isn't created
+INFO    2019-02-14 09:01:49,328 [main] Driver  - you enter query: CREATE DATABASE TestDB_Select and it was already created
+INFO    2019-02-14 09:01:49,328 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:49,328 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:49,718 [main] Driver  - you enter query: CREATE TABLE table_name13(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:49,718 [main] Driver  - you enter query: INSERT INTO table_name13(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:49,728 [main] Driver  - you enter query: INSERT INTO table_name13(column_NAME1, column_name2, COLUMN_name3) VALUES ('value1', 4, 'value3')
+INFO    2019-02-14 09:01:49,728 [main] Driver  - you enter query: INSERT INTO table_name13(column_name1, COLUMN_NAME3, column_NAME2) VALUES ('value2', 'value4', 5)
+INFO    2019-02-14 09:01:49,738 [main] Driver  - you enter query: INSERT INTO table_name13(column_name1, COLUMN_NAME3, column_NAME2) VALUES ('value5', 'value6', 6)
+INFO    2019-02-14 09:01:49,748 [main] Driver  - you start new resultSet
+INFO    2019-02-14 09:01:49,748 [main] Driver  - you moves the cursor to the next row and row be 0
+INFO    2019-02-14 09:01:49,748 [main] Driver  - you moves the cursor to the next row and row be 1
+INFO    2019-02-14 09:01:49,748 [main] Driver  - you can't move the cursor to the next row because this row doesn't have next
+INFO    2019-02-14 09:01:49,748 [main] Driver  - you start new resultSetMetaData
+INFO    2019-02-14 09:01:49,748 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:49,748 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:49,758 [main] Driver  - you start new connection with pathsample\12285
+INFO    2019-02-14 09:01:49,758 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:49,758 [main] Driver  - you enter query: DROP DATABASE TestDB_Update and it isn't created
+INFO    2019-02-14 09:01:49,758 [main] Driver  - you enter query: CREATE DATABASE TestDB_Update and it was already created
+INFO    2019-02-14 09:01:49,758 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:49,758 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:49,768 [main] Driver  - you enter query: CREATE TABLE table_name8(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:49,768 [main] Driver  - you enter query: INSERT INTO table_name8(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:49,798 [main] Driver  - you enter query: INSERT INTO table_name8(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:49,808 [main] Driver  - you enter query: INSERT INTO table_name8(column_name1, COLUMN_NAME3, column_NAME2) VALUES ('value2', 'value4', 5)
+INFO    2019-02-14 09:01:49,818 [main] Driver  - you enter query: UPDATE table_name8 SET column_name1='11111111', COLUMN_NAME2=22222222, column_name3='333333333' WHERE coLUmn_NAME3='VALUE3'
+INFO    2019-02-14 09:01:49,838 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:49,838 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:49,848 [main] Driver  - you start new connection with pathsample\56168
+INFO    2019-02-14 09:01:49,848 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:49,848 [main] Driver  - you enter query: DROP DATABASE TestDB_Select and it isn't created
+INFO    2019-02-14 09:01:49,848 [main] Driver  - you enter query: CREATE DATABASE TestDB_Select and it was already created
+INFO    2019-02-14 09:01:49,848 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:49,848 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:49,868 [main] Driver  - you enter query: CREATE TABLE table_name13(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:49,868 [main] Driver  - you enter query: INSERT INTO table_name13(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:49,888 [main] Driver  - you enter query: INSERT INTO table_name13(column_NAME1, column_name2, COLUMN_name3) VALUES ('value1', 8, 'value3') and it was already INSERT
+INFO    2019-02-14 09:01:49,888 [main] Driver  - you enter query: INSERT INTO table_name13(column_name1, COLUMN_NAME3, column_NAME2) VALUES ('value2', 'value4', 5)
+INFO    2019-02-14 09:01:49,888 [main] Driver  - you enter query: INSERT INTO table_name13(column_name1, COLUMN_NAME3, column_NAME2) VALUES ('value5', 'value6', 6)
+INFO    2019-02-14 09:01:49,898 [main] Driver  - you enter query: SELECT column_name1 FROM table_name13 WHERE coluMN_NAME2 = 8 and it was already SELECT
+ and number of row = 1
+INFO    2019-02-14 09:01:49,908 [main] Driver  - you enter query: SELECT column_name1 FROM table_name13 WHERE coluMN_NAME2 > 100 and it isn't SELECT
+INFO    2019-02-14 09:01:49,908 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:49,908 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:49,918 [main] Driver  - you start new connection with pathsample\97758
+INFO    2019-02-14 09:01:49,918 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:49,918 [main] Driver  - you enter query: DROP DATABASE TestDB_Update and it isn't created
+INFO    2019-02-14 09:01:49,918 [main] Driver  - you enter query: CREATE DATABASE TestDB_Update and it was already created
+INFO    2019-02-14 09:01:49,918 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:49,918 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:49,928 [main] Driver  - you enter query: CREATE TABLE table_name9(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:49,928 [main] Driver  - you enter query: UPDATE table_name9 SET column_name1='value1', column_name2=15, column_name3='value2'
+INFO    2019-02-14 09:01:49,938 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:49,938 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:49,938 [main] Driver  - you enter query: UPDATE wrong_table_name9 SET column_name1='value1', column_name2=15, column_name3='value2'
+INFO    2019-02-14 09:01:50,018 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:50,028 [main] Driver  - you start new connection with pathsample\52826.0765004128
+INFO    2019-02-14 09:01:50,028 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,028 [main] Driver  - you enter query: DROP DATABASE SaMpLe and it isn't created
+INFO    2019-02-14 09:01:50,028 [main] Driver  - you enter query: CREATE DATABASE SaMpLe and it was already created
+INFO    2019-02-14 09:01:50,038 [main] Driver  - you enter query: DROP DATABASE SaMpLe and it was already created
+INFO    2019-02-14 09:01:50,038 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,038 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,038 [main] Driver  - you enter query: DROP DATABASE SAMPLE and it isn't created
+INFO    2019-02-14 09:01:50,038 [main] Driver  - you enter query: CREATE DATABASE SAMPLE and it was already created
+INFO    2019-02-14 09:01:50,038 [main] Driver  - you enter query: DROP DATABASE SAMPLE and it was already created
+INFO    2019-02-14 09:01:50,038 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,038 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:50,048 [main] Driver  - you start new connection with pathsample\62739
+INFO    2019-02-14 09:01:50,048 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,048 [main] Driver  - you enter query: DROP DATABASE TestDB_Create and it isn't created
+INFO    2019-02-14 09:01:50,088 [main] Driver  - you enter query: CREATE DATABASE TestDB_Create and it was already created
+INFO    2019-02-14 09:01:50,088 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,098 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,118 [main] Driver  - you enter query: CREATE TABLE table_name1(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:50,118 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,118 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,118 [main] Driver  - you enter query: CREATE TABLE table_name1(column_name1 varchar, column_name2 int, column_name3 varchar) and it isn't CREATE
+INFO    2019-02-14 09:01:50,118 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,128 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:50,149 [main] Driver  - you start new connection with pathsample\92228
+INFO    2019-02-14 09:01:50,149 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,149 [main] Driver  - you enter query: DROP DATABASE TestDB_Insert and it isn't created
+INFO    2019-02-14 09:01:50,159 [main] Driver  - you enter query: CREATE DATABASE TestDB_Insert and it was already created
+INFO    2019-02-14 09:01:50,159 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,159 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,229 [main] Driver  - you enter query: CREATE TABLE table_name3(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:50,229 [main] Driver  - you enter query: INSERT INTO table_name3 VALUES ('value1', 3,'value3')
+INFO    2019-02-14 09:01:50,249 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,249 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:50,259 [main] Driver  - you start new connection with pathsample\49189
+INFO    2019-02-14 09:01:50,259 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,259 [main] Driver  - you enter query: DROP DATABASE TestDB_Update and it isn't created
+INFO    2019-02-14 09:01:50,259 [main] Driver  - you enter query: CREATE DATABASE TestDB_Update and it was already created
+INFO    2019-02-14 09:01:50,259 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,259 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,369 [main] Driver  - you enter query: CREATE TABLE table_name10(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:50,369 [main] Driver  - you enter query: INSERT INTO table_name10(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:50,389 [main] Driver  - you enter query: INSERT INTO table_name10(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:50,389 [main] Driver  - you enter query: INSERT INTO table_name10(column_name1, COLUMN_NAME3, column_NAME2) VALUES ('value2', 'value4', 5)
+INFO    2019-02-14 09:01:50,399 [main] Driver  - you enter query: DELETE From table_name10
+INFO    2019-02-14 09:01:50,409 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,409 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:50,419 [main] Driver  - you start new connection with pathsample\27149
+INFO    2019-02-14 09:01:50,419 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,419 [main] Driver  - you enter query: DROP DATABASE TestDB_Insert and it isn't created
+INFO    2019-02-14 09:01:50,419 [main] Driver  - you enter query: CREATE DATABASE TestDB_Insert and it was already created
+INFO    2019-02-14 09:01:50,419 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,419 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,469 [main] Driver  - you enter query: CREATE TABLE table_name4(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:50,469 [main] Driver  - you enter query: INSERT INTO table_name4(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:50,479 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,479 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:50,489 [main] Driver  - you start new connection with pathsample\39354
+INFO    2019-02-14 09:01:50,489 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,489 [main] Driver  - you enter query: DROP DATABASE TestDB_Select and it isn't created
+INFO    2019-02-14 09:01:50,489 [main] Driver  - you enter query: CREATE DATABASE TestDB_Select and it was already created
+INFO    2019-02-14 09:01:50,489 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,489 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,499 [main] Driver  - you enter query: CREATE TABLE table_name12(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:50,499 [main] Driver  - you enter query: INSERT INTO table_name12(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:50,519 [main] Driver  - you enter query: INSERT INTO table_name12(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:50,629 [main] Driver  - you enter query: INSERT INTO table_name12(column_name1, COLUMN_NAME3, column_NAME2) VALUES ('value2', 'value4', 5)
+INFO    2019-02-14 09:01:50,629 [main] Driver  - you enter query: INSERT INTO table_name12(column_name1, COLUMN_NAME3, column_NAME2) VALUES ('value5', 'value6', 6)
+INFO    2019-02-14 09:01:50,639 [main] Driver  - you start new resultSet
+INFO    2019-02-14 09:01:50,639 [main] Driver  - you moves the cursor to the next row and row be 0
+INFO    2019-02-14 09:01:50,639 [main] Driver  - you moves the cursor to the next row and row be 1
+INFO    2019-02-14 09:01:50,639 [main] Driver  - you moves the cursor to the next row and row be 2
+INFO    2019-02-14 09:01:50,639 [main] Driver  - you moves the cursor to the next row and row be 3
+INFO    2019-02-14 09:01:50,639 [main] Driver  - you can't move the cursor to the next row because this row doesn't have next
+INFO    2019-02-14 09:01:50,639 [main] Driver  - you start new resultSetMetaData
+INFO    2019-02-14 09:01:50,639 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,639 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:50,649 [main] Driver  - you start new connection with pathsample\8195
+INFO    2019-02-14 09:01:50,649 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,649 [main] Driver  - you enter query: DROP DATABASE TestDB_Update and it isn't created
+INFO    2019-02-14 09:01:50,649 [main] Driver  - you enter query: CREATE DATABASE TestDB_Update and it was already created
+INFO    2019-02-14 09:01:50,649 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,649 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,689 [main] Driver  - you enter query: CREATE TABLE table_name7(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:50,689 [main] Driver  - you enter query: INSERT INTO table_name7(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:50,689 [main] Driver  - you enter query: INSERT INTO table_name7(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:50,709 [main] Driver  - you enter query: INSERT INTO table_name7(column_name1, COLUMN_NAME3, column_NAME2) VALUES ('value2', 'value4', 5)
+INFO    2019-02-14 09:01:50,719 [main] Driver  - you enter query: UPDATE table_name7 SET column_name1='1111111111', COLUMN_NAME2=2222222, column_name3='333333333'
+INFO    2019-02-14 09:01:50,719 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,719 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:50,779 [main] Driver  - you start new connection with pathsample\84355
+INFO    2019-02-14 09:01:50,779 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,779 [main] Driver  - you enter query: DROP DATABASE TestDB_Insert and it isn't created
+INFO    2019-02-14 09:01:50,779 [main] Driver  - you enter query: CREATE DATABASE TestDB_Insert and it was already created
+INFO    2019-02-14 09:01:50,779 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,779 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,789 [main] Driver  - you enter query: CREATE TABLE table_name6(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:50,789 [main] Driver  - you enter query: INSERT INTO table_name6(column_name1, column_name2) VALUES ('value1', 4)
+INFO    2019-02-14 09:01:50,799 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:50,799 [main] Driver  - you start new connection with pathsample\37240
+INFO    2019-02-14 09:01:50,809 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,809 [main] Driver  - you enter query: DROP DATABASE TestDB_Insert and it isn't created
+INFO    2019-02-14 09:01:50,809 [main] Driver  - you enter query: CREATE DATABASE TestDB_Insert and it was already created
+INFO    2019-02-14 09:01:50,809 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,809 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,819 [main] Driver  - you enter query: CREATE TABLE table_name5(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:50,819 [main] Driver  - you enter query: INSERT INTO table_name5(invalid_column_name1, column_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:50,819 [main] Driver  - you close your connection
+INFO    2019-02-14 09:01:50,969 [main] Driver  - you start new connection with pathsample\16313
+INFO    2019-02-14 09:01:50,969 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,969 [main] Driver  - you enter query: DROP DATABASE TestDB_Update and it isn't created
+INFO    2019-02-14 09:01:50,969 [main] Driver  - you enter query: CREATE DATABASE TestDB_Update and it was already created
+INFO    2019-02-14 09:01:50,969 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:50,969 [main] Driver  - you start new statement
+INFO    2019-02-14 09:01:50,999 [main] Driver  - you enter query: CREATE TABLE table_name11(column_name1 varchar, column_name2 int, column_name3 varchar) and it was already CREATE
+INFO    2019-02-14 09:01:50,999 [main] Driver  - you enter query: INSERT INTO table_name11(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:51,009 [main] Driver  - you enter query: INSERT INTO table_name11(column_NAME1, COLUMN_name3, column_name2) VALUES ('value1', 'value3', 4)
+INFO    2019-02-14 09:01:51,009 [main] Driver  - you enter query: INSERT INTO table_name11(column_name1, COLUMN_NAME3, column_NAME2) VALUES ('value2', 'value4', 5)
+INFO    2019-02-14 09:01:51,009 [main] Driver  - you enter query: DELETE From table_name11  WHERE coLUmn_NAME3='VAluE3'
+INFO    2019-02-14 09:01:51,019 [main] Driver  - you close your statement
+INFO    2019-02-14 09:01:51,019 [main] Driver  - you close your connection
